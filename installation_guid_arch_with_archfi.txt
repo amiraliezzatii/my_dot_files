@@ -1,0 +1,6 @@
+ping google.com
+sudo pacman -Sy
+sudo pacman -S curl
+curl -LO archfi.sf.net/archfi
+sh archfi
+and contnue graphical
