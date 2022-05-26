@@ -1,19 +1,20 @@
 # my_dot_files
-#### Standalone
+#### configs and commands (for i3 window manager)
 
-These instructions should work on any distribution where `apt-get` has been
-used to install Apache.
-
-1. Open up a terminal and type the following command. Enter your password when
-   prompted.
+1. if use arch base linux 
 
     ```shell
-    sudo a2enmod setenvif headers deflate filter expires rewrite include
+    chmod 775 i3_config_for_arch.sh
+    ```
+    ``` shell
+    bash i3_config_for_arch.sh
     ```
 
-2. Restart apache by using the following command, so the new configuration takes
-   effect.
+2. if use debian base and redhat base linux 
 
     ```shell
-    sudo /etc/init.d/apache2 restart
+    chmod 775 i3_status_config.sh
+    ```
+    ```shell
+    bash i3_status_config.sh
     ```
