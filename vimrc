@@ -38,4 +38,4 @@ map <S-w> :wq <cr>
 map <S-q> :q! <cr>
 map <S-t> :terminal <cr>
 map <S-r> :w <cr>
-
+map <S-s> :wq ! sudo tee % <cr>
